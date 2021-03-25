@@ -1,9 +1,22 @@
 @import url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff');
+@import url('/wp-content/themes/Md/fonts/gt-icons.woff');
+
 @font-face {
     font-family: md-icon;
     src: url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff') format('woff');
     font-style: normal;
     font-weight: 400;
+}
+@font-face {
+  font-family: "gt-icons";
+  src:url("/wp-content/themes/Md/fonts/gt-icons.eot");
+  src:url("/wp-content/themes/Md/fonts/gt-icons.eot?#iefix") format("embedded-opentype"),
+    url("/wp-content/themes/Md/fonts/gt-icons.woff") format("woff"),
+    url("/wp-content/themes/Md/fonts/gt-icons.ttf") format("truetype"),
+    url("/wp-content/themes/Md/fonts/gt-icons.svg#gt-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
 }
 [class*="md-icon-"] { display: inline-block; }
 [class*="md-icon-"]:before {
@@ -17,6 +30,90 @@
     text-align: center;
     text-decoration: inherit;
     text-transform: none;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "gt-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-amazon:before {
+  content: "\61";
+}
+.icon-home:before {
+  content: "\62";
+}
+.icon-android:before {
+  content: "\63";
+}
+.icon-check-circle:before {
+  content: "\64";
+}
+.icon-check-circle-o:before {
+  content: "\65";
+}
+.icon-times-circle:before {
+  content: "\66";
+}
+.icon-times-circle-o:before {
+  content: "\67";
+}
+.icon-file-pdf:before {
+  content: "\68";
+}
+.icon-flame:before {
+  content: "\69";
+}
+.icon-question:before {
+  content: "\6a";
+}
+.icon-star-o:before {
+  content: "\6b";
+}
+.icon-star-half-o:before {
+  content: "\6c";
+}
+.icon-star-half:before {
+  content: "\6d";
+}
+.icon-star:before {
+  content: "\6e";
+}
+.icon-hand-o-right:before {
+  content: "\6f";
+}
+.icon-hand-o-down:before {
+  content: "\70";
+}
+.icon-triangle-right:before {
+  content: "\71";
+}
+.icon-burst-new:before {
+  content: "\72";
+}
+.icon-burst-sale:before {
+  content: "\73";
+}
+.icon-down-circled:before {
+  content: "\74";
+}
+.icon-tag:before {
+  content: "\75";
+}
+.icon-graduation-cap:before {
+  content: "\76";
+}
+.icon-bell:before {
+  content: "\77";
+}
+.icon-bag:before {
+  content: "\78";
 }
 .gt-md-icons-popover .components-popover__content {
     width: 432px;
