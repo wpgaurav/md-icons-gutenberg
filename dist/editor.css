@@ -1,0 +1,69 @@
+@import url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff');
+@font-face {
+    font-family: md-icon;
+    src: url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff') format('woff');
+    font-style: normal;
+    font-weight: 400;
+}
+[class*="md-icon-"] { display: inline-block; }
+[class*="md-icon-"]:before {
+    display: inline-block;
+    font-family: md-icon;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 1;
+    speak: none;
+    text-align: center;
+    text-decoration: inherit;
+    text-transform: none;
+}
+.gt-md-icons-popover .components-popover__content {
+    width: 432px;
+    max-height: 400px;
+    padding: 10px;
+    overflow-y: auto !important;
+}
+
+.gt-md-icons-popover .components-popover__content > div {
+    height: auto;
+}
+
+.gt-md-icons-popover.is-expanded .components-popover__content {
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+ul.gt-md-icons-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 100%;
+}
+
+ul.gt-md-icons-list li {
+    border: 1px solid #c8c8c8;
+    padding: 2px;
+    margin: 0;
+}
+
+ul.gt-md-icons-list li .components-button {
+    display: inline-block;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    color: #111;
+    border: 1px solid transparent;
+    text-align: center;
+    padding: 0;
+}
+
+ul.gt-md-icons-list li .components-button:hover {
+    border-color: #111;
+    color: #000 !important;
+}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
