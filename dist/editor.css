@@ -1,10 +1,3 @@
-@import url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff');
-@font-face {
-    font-family: md-icon;
-    src: url('/wp-content/themes/marketers-delight/lib/assets/icons/md.woff') format('woff');
-    font-style: normal;
-    font-weight: 400;
-}
 [class*="md-icon-"] { display: inline-block; }
 [class*="md-icon-"]:before {
     display: inline-block;

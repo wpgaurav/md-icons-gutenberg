@@ -1,0 +1,14 @@
+{
+  "name": "md-richtext-insert-icons",
+  "version": "1.1.1",
+  "private": true,
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start",
+    "lint:js": "wp-scripts lint-js",
+    "format": "wp-scripts format-js"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^27.1.0"
+  }
+}
